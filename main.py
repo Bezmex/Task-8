@@ -18,6 +18,7 @@ def menu():
 
         if choice == 1:
             text_input = f1()
+            is_text_input = True
 
         elif choice == 2:
             if is_text_input:

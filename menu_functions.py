@@ -25,7 +25,7 @@ def f2():
 
     palindromes = []
 
-    # Проверка каждого слова на палиндром
+    # Проверка слова на палиндром
     for word in words:
         if word == word[::-1]:
             palindromes.append(word)
